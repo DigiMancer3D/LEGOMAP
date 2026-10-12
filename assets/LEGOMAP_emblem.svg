@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="LEGOMAP public brick emblem">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#263b61"/><stop offset="1" stop-color="#0e1d35"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe36f"/><stop offset="0.55" stop-color="#ffbd31"/><stop offset="1" stop-color="#e58d1c"/></linearGradient>
+    <filter id="sh"><feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#000" flood-opacity="0.35"/></filter>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="url(#ring)" stroke="#152437" stroke-width="13"/>
+  <circle cx="256" cy="256" r="218" fill="url(#back)" stroke="#4c6385" stroke-width="7"/>
+  <g opacity="0.18" fill="#aec8ee">
+    <circle cx="121" cy="100" r="18"/><circle cx="194" cy="100" r="18"/><circle cx="267" cy="100" r="18"/><circle cx="340" cy="100" r="18"/>
+    <circle cx="121" cy="412" r="18"/><circle cx="194" cy="412" r="18"/><circle cx="267" cy="412" r="18"/><circle cx="340" cy="412" r="18"/>
+  </g>
+  <g filter="url(#sh)">
+    <g transform="translate(96 153)"><rect width="104" height="115" rx="16" fill="#ef433e" stroke="#7f1926" stroke-width="6"/><g fill="#ff9c8e"><circle cx="30" cy="28" r="15"/><circle cx="74" cy="28" r="15"/></g></g>
+    <g transform="translate(204 138)"><rect width="104" height="130" rx="16" fill="#2484e7" stroke="#114785" stroke-width="6"/><g fill="#89caff"><circle cx="30" cy="28" r="15"/><circle cx="74" cy="28" r="15"/></g></g>
+    <g transform="translate(312 153)"><rect width="104" height="115" rx="16" fill="#35ac57" stroke="#166533" stroke-width="6"/><g fill="#9aebb0"><circle cx="30" cy="28" r="15"/><circle cx="74" cy="28" r="15"/></g></g>
+    <rect x="86" y="268" width="340" height="104" rx="25" fill="#182236" stroke="#ffd34d" stroke-width="10"/>
+  </g>
+  <text x="256" y="338" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="70" font-weight="900" letter-spacing="3" fill="#fff8d4">MAP</text>
+  <text x="256" y="401" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="24" font-weight="900" letter-spacing="1.2" fill="#ffd553">#LEGOMAP</text>
+</svg>
